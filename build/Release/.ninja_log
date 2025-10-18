@@ -1,5 +1,5 @@
 # ninja log v5
-38	439	7802767298979615	CMakeFiles/CAN_LookBack.dir/Core/Src/msp.c.obj	45c0010b2ead66c9
+35	1476	7808351624944523	CMakeFiles/CAN_LookBack.dir/Core/Src/msp.c.obj	45c0010b2ead66c9
 762	1538	7802767309383732	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj	1fd697eb8f5329bd
 54	933	7802766944112631	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj	3889e21c6c2988e2
 26	537	7802759874971073	CMakeFiles/CAN_LookBack.dir/startup_stm32l476xx.s.obj	f94a3008865eab1
@@ -7,13 +7,13 @@
 17	549	7802759875381066	CMakeFiles/CAN_LookBack.dir/Core/Src/sysmem.c.obj	52320effa88211d
 538	1246	7802759881907710	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj	c4d0fb5cde0a56c3
 550	1365	7802759883583012	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.c.obj	b9cf0559958a922c
-34	448	7802767298979615	CMakeFiles/CAN_LookBack.dir/Core/Src/it.c.obj	b5e410d9e8c2ea77
+30	1487	7808351624242574	CMakeFiles/CAN_LookBack.dir/Core/Src/it.c.obj	b5e410d9e8c2ea77
 563	1307	7802759882947020	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj	ea68516f86934cf1
 50	872	7802766943307285	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj	5bcee514593614ab
 58	878	7802766943437285	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj	3d26d91c5e7092ee
 45	563	7802767299459603	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj	a89b547563ffe6c5
-2249	2536	7802767319857109	CAN_LookBack.elf	b564457da12d5223
-29	580	7802767299799661	CMakeFiles/CAN_LookBack.dir/Core/Src/main.c.obj	da2364befaa7f90d
+600	1237	7808354587643884	CAN_LookBack.elf	b564457da12d5223
+44	599	7808354584294951	CMakeFiles/CAN_LookBack.dir/Core/Src/main.c.obj	da2364befaa7f90d
 42	762	7802767301190150	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj	ac27720652557b6f
 49	884	7802767302900676	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj	c872f91038cb4d3b
 448	966	7802767303960900	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj	520fa1caba30c6c4
@@ -25,9 +25,3 @@
 966	1712	7802767311697787	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj	ae3759d4788edaa0
 1311	1948	7802767314094776	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj	c71f458610fb1778
 1044	2249	7802767317248350	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj	e6ff0cb058c855c4
-35	1476	7808351624944523	CMakeFiles/CAN_LookBack.dir/Core/Src/msp.c.obj	45c0010b2ead66c9
-30	1487	7808351624242574	CMakeFiles/CAN_LookBack.dir/Core/Src/it.c.obj	b5e410d9e8c2ea77
-22	1490	7808351624242574	CMakeFiles/CAN_LookBack.dir/Core/Src/main.c.obj	da2364befaa7f90d
-1490	2281	7808351633569424	CAN_LookBack.elf	b564457da12d5223
-44	599	7808354584294951	CMakeFiles/CAN_LookBack.dir/Core/Src/main.c.obj	da2364befaa7f90d
-600	1237	7808354587643884	CAN_LookBack.elf	b564457da12d5223

@@ -108,7 +108,6 @@ void SystemClock_Config(uint8_t clock_freq )
 		Error_handler();
 	}
 
-	//Systick configuration
 
 	HAL_SYSTICK_Config(HAL_RCC_GetHCLKFreq()/1000);
 
@@ -177,7 +176,6 @@ void UART2_Init(void)
 	huart2.Init.Mode = UART_MODE_TX_RX;
 	if ( HAL_UART_Init(&huart2) != HAL_OK )
 	{
-		//There is a problem
 		Error_handler();
 	}
 }
