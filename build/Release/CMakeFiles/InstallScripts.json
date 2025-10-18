@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Dominik/Documents/Domin/Programowanie/Projekty STM32/MCU2/My_Workspace/CAN_LookBack/build/Release/cmake_install.cmake",
+		"C:/Users/Dominik/Documents/Domin/Programowanie/Projekty STM32/MCU2/My_Workspace/CAN_LookBack/build/Release/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

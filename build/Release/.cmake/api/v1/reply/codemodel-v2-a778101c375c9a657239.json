@@ -60,14 +60,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CAN_LookBack::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CAN_LookBack-Release-66a2cf552c7b8b426df3.json",
+					"jsonFile" : "target-CAN_LookBack-Release-e5ee76b0d07bb445d9ba.json",
 					"name" : "CAN_LookBack",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Release-3e9a852f7912e9ff65b3.json",
+					"jsonFile" : "target-STM32_Drivers-Release-279a2e519bbd14091811.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				}
@@ -83,6 +83,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 8
 	}
 }
