@@ -1,6 +1,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "stm32l4xx_hal.h"
+#include "stm32l4xx_hal_can.h"
 #include "main.h"
 
 void GPIO_Init(void);
@@ -78,7 +79,7 @@ void SystemClock_Config_HSE(uint8_t clock_freq)
 
   case SYS_CLOCK_FREQ_80_MHZ:
     Osc_Init.PLL.PLLM = 4;
-    Osc_Init.PLL.PLLN = 84;
+    Osc_Init.PLL.PLLN = 80;
     Osc_Init.PLL.PLLP = RCC_PLLP_DIV7;
     Osc_Init.PLL.PLLQ = 2;
     Osc_Init.PLL.PLLR = 2;
@@ -238,10 +239,10 @@ void CAN1_Init(void)
 	hcan1.Init.TransmitFifoPriority = DISABLE;
 
 	//Settings related to CAN bit timings
-	hcan1.Init.Prescaler = 3;
+	hcan1.Init.Prescaler = 4;
 	hcan1.Init.SyncJumpWidth = CAN_SJW_1TQ;
-	hcan1.Init.TimeSeg1 = CAN_BS1_11TQ;
-	hcan1.Init.TimeSeg2 = CAN_BS2_2TQ;
+	hcan1.Init.TimeSeg1 = CAN_BS1_8TQ;
+	hcan1.Init.TimeSeg2 = CAN_BS2_1TQ;
 
 	if ( HAL_CAN_Init (&hcan1) != HAL_OK)
 	{
